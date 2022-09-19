@@ -1,0 +1,15 @@
+{
+  "short_name": "My Anime Fan Club Client",
+  "name": "CIS 5500 - Project My Anime Fan Club Client",
+  "icons": [
+    {
+      "src": "Anime_log.svg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,22 @@
+/*https://github.com/chrisblakely01/react-movie-app/blob/main/src/App.css*/
+
+.container{
+    display: grid;
+    gap: var(--size-2);
+    grid-auto-columns: auto;
+    grid-auto-flow: column;   
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}

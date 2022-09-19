@@ -1,0 +1,25 @@
+
+.container-fluid{
+    display: grid;
+    gap: var(--size-1);
+    grid-auto-flow: column;
+    grid-auto-columns: 15%;
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+    
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
